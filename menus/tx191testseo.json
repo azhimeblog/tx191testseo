@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tx191testseo",
+        "command": "tx191testseo:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tx191testseo",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tx191testseo:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
